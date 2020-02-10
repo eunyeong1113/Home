@@ -39,7 +39,7 @@ void Library::addBook()
 void Library::ahowList()
 {  
    ofstream fout;
-   fout.open("book.dat");
+   fout.open("book.dat");//파일내보내기
    
    struct book id;
    cout<<endl;
